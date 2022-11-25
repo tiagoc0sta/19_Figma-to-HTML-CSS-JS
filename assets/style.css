@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Istok Web';
+  src: url(font/IstokWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  src: url(font/IstokWeb-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(font/IstokWeb-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(font/IstokWeb-Bold.ttf);
+}
+
+:root{
+  --primary-color: #013456;
+  --accent-color: #FAD405;
+}
+
+.header {
+  display: flex; ///distribute elements from left to right
+  justify-content: space-between;
+  padding-top: 81px;
+  max-width: 1231px;
+  margin: 0 auto;
+  font-family: 'Istok Web';
+}
