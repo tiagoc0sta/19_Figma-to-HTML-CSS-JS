@@ -6,25 +6,28 @@
 @font-face {
   font-family: 'Istok Web';
   src: url(font/IstokWeb-Bold.ttf);
+  font-weight: 700;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url(font/IstokWeb-Light.ttf);
+  src: url(font/Poppins-Light.ttf);
+  font-weight: 200;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url(font/IstokWeb-Bold.ttf);
+  src: url(font/Poppins-Bold.ttf);
+  font-weight: 700;
 }
 
-:root{
+:root {
   --primary-color: #013456;
   --accent-color: #FAD405;
 }
 
 .header {
-  display: flex; ///distribute elements from left to right
+  display: flex;
   justify-content: space-between;
   padding-top: 81px;
   max-width: 1231px;
