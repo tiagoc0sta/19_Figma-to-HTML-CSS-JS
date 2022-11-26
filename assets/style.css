@@ -23,7 +23,7 @@
 
 :root {
   --primary-color: #013456;
-  --accent-color: #FAD405;
+  --accent-color: #FFD233;
 }
 
 .header {
@@ -33,4 +33,47 @@
   max-width: 1231px;
   margin: 0 auto;
   font-family: 'Istok Web';
+}
+
+.header {
+  margin: 0;
+  display: flex;
+  align-items: center;  
+}
+
+.header span {
+  font-weight: 700;
+  font-size: 40px;
+  margin-right:10px;
+  color: var(--primary-color);
+}
+
+.header .plane-ico {
+  color: var(--accent-color);
+}
+
+.header .menu-ico,
+.header .close-ico {
+  display: none;
+}
+
+.header_navigation {
+  display : flex;
+  align-items : center;
+  height: 52px;
+}
+
+.header_navigation a{
+  text-decoration: none;
+  margin-left: 29px;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.wraper {
+  display: flex;
+}
+
+.wraper aside {
+  width: 50%;
 }
